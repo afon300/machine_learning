@@ -28,6 +28,6 @@ def create_dwelling_type_chart(df_path: str):
     print("Chart saved as 'dwelling_type_by_age.png'")
 
 
-file_path = 'my_data.csv'
+file_path = 'my_data1.csv'
 
 create_dwelling_type_chart(file_path)
