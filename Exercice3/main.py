@@ -17,7 +17,7 @@ corr_twn = df_twn[features].corr()
 
 def plot_correlation_matrix(corr_matrix, title):
     
-    plt.figure(figsize=(8, 5))
+    plt.figure(figsize=(12, 9))
     sns.heatmap(corr_matrix, annot=True, cmap='coolwarm', vmin=-1, vmax=1, square=True)
     plt.title(title, fontsize=16)
     plt.show()
